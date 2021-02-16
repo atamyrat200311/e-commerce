@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>E-commerce Website</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="top-nav-bar">
+<div class="search-box">
+	<i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+	<i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+<img src="img/logo.png" class="logo">
+<input type="text" class="form-control">
+<span class="input-group-text"><i class="fa fa-search"></i></span>
+</div>
+<div class="menu-bar">
+<ul>
+<li><a href="#"><i class="fa fa-shopping-basket">
+</i>cart</a></li>
+<li><a href="#">Sign Up</a></li>
+<li><a href="#">Log In</a></li>
+</ul>
+</div>
+</div>
+
+<section class="header">
+<div class="side-menu" id="side-menu">
+<ul>
+	<li>Gadjetler<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Telefonlar</li>
+	<li>Nauşnikler</li>
+	<li>Sagatlar</li>
+	<li>Kolonkalar</li>
+	</ul>
+	</li>
+	<li>Kompýuteriň şaýlary<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Syçanjyklar</li>
+	<li>Klawyeler</li>
+	<li>Wideo Kartalar</li>
+	<li>RAMlar</li>
+	</ul>
+	</li>
+	<li>Noutbuklar we Ultrabuklar<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Noutbuklar</li>
+	<li>Ultrabuklar</li>
+	<li>Oýun üçin noutbuklar</li>
+	<li>Noutbuklar üçin sowadyjylar</li>
+	<li>Noutbuklar üçin sumkalar</li>
+	</ul>
+	</li>
+	<li>HDD we Fleşkalar<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Daşky USB-HDD</li>
+	<li>Daşky USB-SDD</li>
+	<li>Fleşkalar</li>
+	<li>Daşky USB-HDD üçin korpus we daşlyk</li>
+	</ul>
+	</li>
+	<li>Başgalar<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Kompýuter oturgyçlary</li>
+	<li>Ulag</li>
+	<li>Äýnek</li>
+	<li>Dürli harytlar</li>
+	</ul>
+	</li>
+</ul>
+</div>
+<div class="slider">
+<div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/ekran1.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="img/ekran2.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="img/ekran3.jpg" class="d-block w-100">
+    </div>
+	<div class="carousel-item">
+      <img src="img/ekran4.jpg" class="d-block w-100">
+    </div>
+  </div>
+	<ol class="carousel-indicators">
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1"></li>
+    <li data-target="#slider" data-slide-to="2"></li>
+	<li data-target="#slider" data-slide-to="3"></li>
+	</ol>
+ </div>
+ </div>
+
+</section>
+
+<!-------------------featured categories-------------------------------------------------->
+
+	<section class="featured-categories">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+			<img src="img/pop1.jpg">
+			</div>
+			<div class="col-md-4">
+			<img src="img/pop2.jpg">
+			</div>
+			<div class="col-md-4">
+			<img src="img/pop3.jpg">
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<!-------------Gadjetler------------->
+<section class="gadjet">
+<div class="container">
+	<div class="title-box">
+	<h2>Gadjetler</h2>
+	</div>
+	<div class="row">
+	<div class="col-md-3">
+	<div class="product-top">
+		<a href="s20+.html"><img src="img/s20+(1).jpg"></a>
+			<div class="overlay-right">
+			<button type="button" class="btn btn-secondary" title="Quick Shop"></a>
+			<a href="img/s20+(1).jpg"><i class="fa fa-eye"></i></a>
+			</button>
+			<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+			<i class="fa fa-heart-o"></i>
+			</button>
+			<button type="button" class="btn btn-secondary" title="Add to Cart">
+			<i class="fa fa-shopping-cart"></i>
+			</button>
+	</div>
+	</div>
+	<div class="product-bottom text-center">
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star-half-o"></i>
+		<h3>Samsung Galaxy S20+</h3>
+		<h5>22,176 TMT</h5>
+	</div>
+	</div>
+
+	<div class="col-md-3">
+	<div class="product-top">
+		<a href="iphone 12.html"><img src="img/iphone 12(1).jpg"></a>
+			<div class="overlay-right">
+			<button type="button" class="btn btn-secondary" title="Quick Shop">
+			<a href="img/iphone 12(1).jpg"><i class="fa fa-eye"></i></a>
+			</button>
+			<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+			<i class="fa fa-heart-o"></i>
+			</button>
+			<button type="button" class="btn btn-secondary" title="Add to Cart">
+			<i class="fa fa-shopping-cart"></i>
+			</button>
+	</div>
+	</div>
+	<div class="product-bottom text-center">
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+		<h3>iPhone 12 Pro Max 512GB</h3>
+		<h5>45,479 TMT</h5>
+	</div>
+
+	</div>
+</div>
+</section>
+
+
+<!----------------Noutbuklar------------------->
+<section class="new-products">
+<div class="container">
+	<div class="title-box">
+	<h2>Noutbuklar we Ultrabuklar</h2>
+	</div>
+	<div class="row">
+	<div class="col-md-3">
+	<div class="product-top">
+		<a href="acer nitro.html"><img src="img/acer nitro(1).jpg"></a>
+			<div class="overlay-right">
+			<button type="button" class="btn btn-secondary" title="Quick Shop">
+			<a href="img/acer nitro(1).jpg"><i class="fa fa-eye"></i></a>
+			</button>
+			<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+			<i class="fa fa-heart-o"></i>
+			</button>
+			<button type="button" class="btn btn-secondary" title="Add to Cart">
+			<i class="fa fa-shopping-cart"></i>
+			</button>
+	</div>
+	</div>
+	<div class="product-bottom text-center">
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star-half-o"></i>
+		<h3>Notebook Acer Nitro 5 Gaming</h3>
+		<h5>39,763 TMT</h5>
+	</div>
+	</div>
+
+	<div class="col-md-3">
+	<div class="product-top">
+		<a href="macbook.html"><img src="img/macbook(1).jpg"></a>
+			<div class="overlay-right">
+			<button type="button" class="btn btn-secondary" title="Quick Shop">
+			<a href="img/macbook(1).jpg"><i class="fa fa-eye"></i></a>
+			</button>
+			<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+			<i class="fa fa-heart-o"></i>
+			</button>
+			<button type="button" class="btn btn-secondary" title="Add to Cart">
+			<i class="fa fa-shopping-cart"></i>
+			</button>
+	</div>
+	</div>
+	<div class="product-bottom text-center">
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+		<h3>MacBook Pro 2019</h3>
+		<h5>90,244 TMT</h5>
+	</div>
+
+	</div>
+</div>
+</section>
+
+<!---------Website features---------->
+
+<section class="website-features">
+<div class="container">
+<div class="row">
+<div class="col-md-3 feature-box">
+<img src="img/feature img.png">
+<div class="feature-text">
+<p><b>100% Original items </b>are available at company</p>
+</div>
+</div>
+<div class="col-md-3 feature-box">
+<img src="img/feature img2.png">
+<div class="feature-text">
+<p><b>Return within 30 days </b>of receiving your order.</p>
+</div>
+</div>
+<div class="col-md-3 feature-box">
+<img src="img/feature img3.png">
+<div class="feature-text">
+<p><b>Get free delivery for every </b>order on more than price.</p>
+</div>
+</div>
+<div class="col-md-3 feature-box">
+<img src="img/feature img4.png">
+<div class="feature-text">
+<p><b>Pay Online through multiple </b>options (card/Net banking)</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!--------Footer--------->
+<section class="footer">
+<div class="container tex-center">
+	<div class="row">
+			<div class="col-md-3">
+				<h1>Useful Links<h1>
+				<p>Provacy Policy</p>
+				<p>Terms of Use</p>
+				<p>Return Policy</p>
+				<p>Discount Coupons</p>
+			</div>
+
+			<div class="col-md-3">
+				<h1>Company<h1>
+				<p>About us</p>
+				<a href="contact.html"><p>Contact Us</p></a>
+				<p>Career</p>
+				<p>Affiliate</p>
+			</div>
+
+			<div class="col-md-3">
+				<h1>Follow Us On<h1>
+				<p><i class="fa fa-facebook-official"></i> Facebook</p>
+				<a href="https://www.instagram.com/_nickname_1103/?hl=en"><p><i class="fa fa-instagram"></i> Instagram</p></a>
+				<p><i class="fa fa-camera"></i> Imo</p>
+				<p><i class="fa fa-vk"></i> VKontact</p>
+			</div>
+
+			<div class="col-md-3 footer-image">
+				<h1>Download App<h1>
+				<img src="img/app-download.png" >
+			</div>
+	</div>
+	<hr>
+	<p class="copyriht">Made with <i class="fa fa-heart-o"></i> by Atamyrat Hudaykulyyev</p>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+		function openmenu()
+			{
+				document.getElementById("side-menu").style.display="block";
+				document.getElementById("menu-btn").style.display="none";
+				document.getElementById("close-btn").style.display="block";
+			}
+		function closemenu()
+			{
+				document.getElementById("side-menu").style.display="none";
+				document.getElementById("menu-btn").style.display="block";
+				document.getElementById("close-btn").style.display="none";
+			}
+	</script>
+
+
+
+
+
+
+
+</body>
+</html>
